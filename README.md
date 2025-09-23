@@ -1,73 +1,160 @@
-# Welcome to your Lovable project
+# Portfolio Website - Modern Developer Portfolio
 
-## Project info
+A stunning, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Perfect for software developers, especially those targeting placement opportunities at leading tech companies.
 
-**URL**: https://lovable.dev/projects/8fb2ba97-a1e0-4de7-81ce-9f482c999625
+## ✨ Features
 
-## How can I edit this code?
+- **Modern Design**: Clean, professional layout with Indian cultural color accents
+- **Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Interactive**: Smooth animations and scroll effects
+- **SEO Optimized**: Proper meta tags, semantic HTML, and structured data
+- **Fast Loading**: Optimized images and performance
+- **Accessible**: ARIA labels and keyboard navigation support
 
-There are several ways of editing your application.
+## 🎨 Design System
 
-**Use Lovable**
+The portfolio uses a carefully crafted design system inspired by Indian culture:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8fb2ba97-a1e0-4de7-81ce-9f482c999625) and start prompting.
+- **Primary**: Deep Indigo (#312e81) - Professional and trustworthy
+- **Accent**: Saffron Orange (#f97316) - Energy and creativity  
+- **Success**: Emerald Green (#059669) - Growth and success
+- **Gold**: Indian Gold (#f59e0b) - Excellence and achievement
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📱 Sections
 
-**Use your preferred IDE**
+1. **Hero Section**: Eye-catching introduction with animated background
+2. **About Me**: Education, skills, and career goals
+3. **Technical Skills**: Interactive skill visualization with progress bars
+4. **Projects**: Showcase of featured projects with live demos
+5. **Achievements**: Certifications, hackathons, and recognition
+6. **Contact**: Contact form with social media links
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Quick Start
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd portfolio-website
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Customization
 
-**Use GitHub Codespaces**
+### Personal Information
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Update the following files with your information:
 
-## What technologies are used for this project?
+1. **src/components/Hero.tsx** - Name, tagline, and social links
+2. **src/components/About.tsx** - Education, skills, and background
+3. **src/components/Projects.tsx** - Your projects and GitHub links
+4. **src/components/Contact.tsx** - Contact information and email
+5. **index.html** - SEO meta tags and page title
 
-This project is built with:
+### Images
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Replace the generated project images in `src/assets/` with your actual project screenshots:
+- `project-cultural.jpg`
+- `project-data-analysis.jpg`
+- `project-ecommerce.jpg`
+- `project-weather.jpg` 
+- `project-task-management.jpg`
 
-## How can I deploy this project?
+### Colors & Styling
 
-Simply open [Lovable](https://lovable.dev/projects/8fb2ba97-a1e0-4de7-81ce-9f482c999625) and click on Share -> Publish.
+The design system is defined in:
+- `src/index.css` - CSS variables and component styles
+- `tailwind.config.ts` - Tailwind configuration
 
-## Can I connect a custom domain to my Lovable project?
+## 📦 Deployment
 
-Yes, you can!
+### GitHub Pages
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Install the GitHub Pages package:
+```bash
+npm install --save-dev gh-pages
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+2. Add deployment scripts to `package.json`:
+```json
+{
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://yourusername.github.io/portfolio"
+}
+```
+
+3. Deploy:
+```bash
+npm run deploy
+```
+
+### Render/Vercel/Netlify
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Upload the `dist` folder to your hosting platform
+
+### Custom Domain
+
+Update the following for custom domain:
+1. CNAME file in public folder
+2. Meta tags in index.html
+3. Canonical URLs
+
+## 🎯 For Placement Drives
+
+This portfolio is specifically designed for:
+- **Campus Placements**: Professional appearance suitable for recruiters
+- **Tech Companies**: Emphasizes technical skills and projects
+- **Indian Students**: Cultural color palette and familiar design elements
+- **Modern Recruiters**: Fast loading, mobile-friendly, and accessible
+
+## 📈 SEO Features
+
+- Semantic HTML structure
+- Open Graph meta tags for social sharing
+- Twitter Card support
+- Structured data for better search results
+- Fast loading with optimized images
+- Mobile-first responsive design
+
+## 🤝 Contributing
+
+Feel free to fork this project and customize it for your needs. If you make improvements, consider submitting a pull request!
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 📞 Support
+
+If you need help customizing this portfolio:
+- Create an issue in the GitHub repository
+- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn Profile]
+
+---
+
+**Built with ❤️ in India using React, TypeScript, and Tailwind CSS**
