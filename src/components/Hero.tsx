@@ -21,17 +21,17 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Hello, I'm{' '}
             <span className="bg-gradient-to-r from-accent to-gold bg-clip-text text-transparent animate-glow-pulse">
-              Your Name
+              Chandini Pentapati
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Web Developer & Python Programmer
+            IT Student & AI Enthusiast
           </p>
           
           <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            4th Year IT Student at Andhra University College of Engineering, passionate about creating 
-            innovative solutions and contributing to open-source projects.
+            4th Year Information Technology student at Andhra University College of Engineering 
+            with a passion for artificial intelligence and creating innovative solutions.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -56,7 +56,7 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/chand-chandini" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
@@ -66,7 +66,7 @@ const Hero = () => {
             </a>
             
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/chandini-pentapati" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
@@ -76,7 +76,7 @@ const Hero = () => {
             </a>
             
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:chandinipentapati123@gmail.com"
               className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
               aria-label="Send Email"
             >

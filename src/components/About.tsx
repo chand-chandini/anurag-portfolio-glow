@@ -27,25 +27,25 @@ const About = () => {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "4th Year Information Technology, Andhra University College of Engineering",
+      description: "4th Year Information Technology, Andhra University College of Engineering (CGPA: 8.75)",
       color: "text-primary"
     },
     {
       icon: Code,
       title: "Technical Skills",
-      description: "Python, HTML, CSS, JavaScript, Git, React, Problem Solving",
+      description: "C Programming, Python, SQL, HTML/CSS, JavaScript, Artificial Intelligence",
       color: "text-accent"
     },
     {
       icon: Target,
       title: "Career Goals",
-      description: "Seeking software engineering roles at leading tech companies",
+      description: "Seeking software engineering roles and contributing to key projects in AI",
       color: "text-success"
     },
     {
       icon: Heart,
       title: "Passion",
-      description: "Contributing to open-source projects and building innovative solutions",
+      description: "Building innovative solutions and showcasing India's cultural heritage through technology",
       color: "text-gold"
     }
   ];
@@ -61,10 +61,10 @@ const About = () => {
             <div className="w-24 h-1 bg-gradient-accent mx-auto mb-8"></div>
             
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              I'm a passionate web developer and Python programmer currently in my final year at 
-              Andhra University College of Engineering. With a strong foundation in modern web technologies 
-              and a love for problem-solving, I'm eager to contribute to innovative projects and make 
-              a meaningful impact in the tech industry.
+              I'm Chandini Pentapati, a passionate 4th-year Information Technology student at 
+              Andhra University College of Engineering with a CGPA of 8.75. Through internships 
+              in C++ and Artificial Intelligence, I've gained hands-on experience and developed 
+              a strong foundation in programming and AI technologies.
             </p>
           </div>
           
@@ -104,10 +104,10 @@ const About = () => {
                   My Journey
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  My journey in technology began with curiosity and has evolved into a passion for creating 
-                  digital solutions that make a difference. Through my studies at Andhra University, hands-on 
-                  projects, and continuous learning, I've developed strong technical skills and a collaborative 
-                  mindset that drives me to excel in team environments and tackle complex challenges.
+                  My journey in technology began with curiosity and has evolved through participating 
+                  in national hackathons like Build Bharath AI, where I developed innovative solutions 
+                  to showcase India's cultural heritage. With hands-on experience from internships 
+                  and continuous learning, I'm excited to contribute to key projects in the software industry.
                 </p>
                 
                 <div className="mt-6 flex flex-wrap justify-center gap-3">

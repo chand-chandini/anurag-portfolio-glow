@@ -17,54 +17,54 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Cultural Heritage Web App",
-      description: "Interactive platform showcasing Indian cultural heritage with virtual tours, historical timelines, and educational content. Built with React and Node.js.",
+      title: "Bharath Heritage",
+      description: "Interactive web application showcasing India's diverse traditions and state heritage with gamified challenges and AR companion for immersive 3D exploration of cultural landmarks and stories.",
       image: culturalHeritageImg,
-      technologies: ["React", "Node.js", "MongoDB", "Express", "CSS3"],
-      githubUrl: "https://github.com/yourusername/cultural-heritage",
-      liveUrl: "https://cultural-heritage-demo.com",
+      technologies: ["HTML5", "CSS3", "JavaScript", "AR Technology", "React"],
+      githubUrl: "https://github.com/chand-chandini/bharath-heritage",
+      liveUrl: null,
       featured: true,
       category: "Full Stack"
     },
     {
-      title: "Python Data Analysis Tool",
-      description: "Comprehensive data analysis toolkit for processing CSV files, generating visualizations, and creating automated reports using pandas and matplotlib.",
+      title: "Medifly Health Diagnosis",
+      description: "AI-powered health diagnosis application that predicts medicines based on symptoms with 80% accuracy. Deployed web platform that's easy to use and provides medical recommendations.",
       image: dataAnalysisImg,
-      technologies: ["Python", "Pandas", "Matplotlib", "Jupyter", "NumPy"],
-      githubUrl: "https://github.com/yourusername/data-analysis-tool",
+      technologies: ["Python", "Machine Learning", "Web Development", "Healthcare AI"],
+      githubUrl: "https://github.com/chand-chandini/medifly",
       liveUrl: null,
       featured: true,
-      category: "Python"
+      category: "AI/ML"
     },
     {
-      title: "E-Commerce Dashboard",
-      description: "Modern admin dashboard for e-commerce management with real-time analytics, inventory tracking, and order management capabilities.",
+      title: "Tic Tac Toe Game",
+      description: "Interactive two-player Tic Tac Toe game with clean user interface. Players take turns marking a 3x3 grid, aiming to get three X's or O's in a row horizontally, vertically, or diagonally.",
       image: ecommerceImg,
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-      githubUrl: "https://github.com/yourusername/ecommerce-dashboard",
-      liveUrl: "https://ecommerce-dashboard-demo.com",
+      technologies: ["JavaScript", "HTML5", "CSS3", "Game Logic"],
+      githubUrl: "https://github.com/chand-chandini/tic-tac-toe",
+      liveUrl: null,
       featured: false,
       category: "Frontend"
     },
     {
-      title: "Weather Prediction System",
-      description: "Machine learning model for weather prediction using historical data analysis and real-time API integration with intuitive visualization.",
+      title: "AI Projects Collection",
+      description: "Comprehensive collection of artificial intelligence projects developed during internship at HMIES Solutions, showcasing various AI algorithms and machine learning applications.",
       image: weatherImg,
-      technologies: ["Python", "scikit-learn", "Flask", "APIs", "Bootstrap"],
-      githubUrl: "https://github.com/yourusername/weather-prediction",
-      liveUrl: "https://weather-prediction-demo.com",
+      technologies: ["Python", "Machine Learning", "AI Algorithms", "Data Processing"],
+      githubUrl: "https://github.com/chand-chandini/ai-projects",
+      liveUrl: null,
       featured: false,
-      category: "Machine Learning"
+      category: "AI/ML"
     },
     {
-      title: "Task Management System",
-      description: "Collaborative task management application with team features, deadline tracking, and progress visualization for enhanced productivity.",
+      title: "C++ Programming Portfolio",
+      description: "Compilation of C++ programming projects developed during internship at Internstudio, demonstrating object-oriented programming concepts, data structures, and algorithms.",
       image: taskManagementImg,
-      technologies: ["React", "Firebase", "Material-UI", "JavaScript"],
-      githubUrl: "https://github.com/yourusername/task-management",
-      liveUrl: "https://task-management-demo.com",
+      technologies: ["C++", "Object-Oriented Programming", "Data Structures", "Algorithms"],
+      githubUrl: "https://github.com/chand-chandini/cpp-projects",
+      liveUrl: null,
       featured: false,
-      category: "Full Stack"
+      category: "Programming"
     }
   ];
 

@@ -10,40 +10,40 @@ const Achievements = () => {
   const achievements = [
     {
       type: "hackathon",
-      title: "Smart India Hackathon 2023",
-      description: "Finalist in the Smart India Hackathon for developing an innovative solution to improve rural healthcare accessibility using IoT and mobile technology.",
-      date: "October 2023",
-      status: "Finalist",
+      title: "Build Bharath AI 24hr Hackathon",
+      description: "Participated in the National 24-hour Artificial Intelligence Hackathon, developing the 'Bharath Heritage' project to showcase India's cultural diversity through interactive technology.",
+      date: "2024",
+      status: "Participant",
       icon: Trophy,
       color: "text-gold",
       bgColor: "bg-gold/10"
     },
     {
-      type: "certification",
-      title: "Python for Everybody Specialization",
-      description: "Completed comprehensive Python programming specialization covering data structures, web scraping, databases, and data visualization.",
-      date: "August 2023",
+      type: "internship",
+      title: "AI Internship at HMIES Solutions",
+      description: "Successfully completed internship in Artificial Intelligence at HMIES Solutions Pvt Ltd, certified by Andhra Pradesh State Council of Higher Education.",
+      date: "June 2025 - August 2025",
       status: "Completed",
-      icon: FileText,
+      icon: Award,
       color: "text-primary",
       bgColor: "bg-primary/10"
     },
     {
-      type: "competition",
-      title: "College Coding Contest Winner",
-      description: "First place in inter-college coding competition solving complex algorithmic problems and demonstrating problem-solving skills.",
-      date: "June 2023",
-      status: "Winner",
-      icon: Award,
+      type: "internship",
+      title: "C++ Internship at Internstudio",
+      description: "Gained hands-on experience in C++ programming through comprehensive internship program, enhancing object-oriented programming skills.",
+      date: "2024",
+      status: "Completed",
+      icon: FileText,
       color: "text-accent",
       bgColor: "bg-accent/10"
     },
     {
-      type: "project",
-      title: "Open Source Contributor",
-      description: "Active contributor to open-source projects with multiple merged pull requests in React component libraries and Python utilities.",
-      date: "Ongoing",
-      status: "Active",
+      type: "certification",
+      title: "C Programming Certificate",
+      description: "Earned certification in C Programming from Delta Infotech, demonstrating proficiency in fundamental programming concepts and problem-solving.",
+      date: "2024",
+      status: "Certified",
       icon: Users,
       color: "text-success",
       bgColor: "bg-success/10"
@@ -52,31 +52,31 @@ const Achievements = () => {
 
   const certifications = [
     {
-      name: "JavaScript Algorithms and Data Structures",
-      issuer: "freeCodeCamp",
-      date: "September 2023",
-      credential: "fcc-js-2023",
+      name: "Artificial Intelligence Internship",
+      issuer: "HMIES Solutions Pvt Ltd",
+      date: "August 2025",
+      credential: "HMIESS2025AI3751",
       verified: true
     },
     {
-      name: "Responsive Web Design",
-      issuer: "freeCodeCamp", 
-      date: "July 2023",
-      credential: "fcc-rwd-2023",
+      name: "C Programming Certificate",
+      issuer: "Delta Infotech", 
+      date: "2024",
+      credential: "DELTA-C-2024",
       verified: true
     },
     {
-      name: "Git Version Control",
-      issuer: "Coursera",
-      date: "May 2023",
-      credential: "coursera-git-2023",
+      name: "C++ Programming Internship",
+      issuer: "Internstudio",
+      date: "2024",
+      credential: "IS-CPP-2024",
       verified: true
     },
     {
-      name: "Database Fundamentals",
-      issuer: "Andhra University",
-      date: "April 2023",
-      credential: "au-db-2023",
+      name: "Build Bharath AI Hackathon",
+      issuer: "National AI Initiative",
+      date: "2024",
+      credential: "BBAI24-PART",
       verified: true
     }
   ];
@@ -230,16 +230,16 @@ const Achievements = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                   <div>
-                    <div className="text-2xl font-bold text-accent mb-1">8.2</div>
+                    <div className="text-2xl font-bold text-accent mb-1">8.75</div>
                     <div className="text-sm text-muted-foreground">Current CGPA</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-success mb-1">15+</div>
+                    <div className="text-2xl font-bold text-success mb-1">5+</div>
                     <div className="text-sm text-muted-foreground">Projects Completed</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-gold mb-1">5+</div>
-                    <div className="text-sm text-muted-foreground">Certifications</div>
+                    <div className="text-2xl font-bold text-gold mb-1">4+</div>
+                    <div className="text-sm text-muted-foreground">Certifications & Internships</div>
                   </div>
                 </div>
               </CardContent>

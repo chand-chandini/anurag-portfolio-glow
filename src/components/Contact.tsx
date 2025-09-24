@@ -31,21 +31,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "chandinipentapati123@gmail.com",
+      href: "mailto:chandinipentapati123@gmail.com",
       color: "text-accent"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      value: "+91 9502219129",
+      href: "tel:+919502219129",
       color: "text-success"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Visakhapatnam, Andhra Pradesh, India",
+      value: "West Godavari, Andhra Pradesh, India",
       href: null,
       color: "text-primary"
     }
@@ -55,19 +55,19 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/chand-chandini",
       color: "hover:text-foreground"
     },
     {
       icon: Linkedin,
       label: "LinkedIn", 
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://linkedin.com/in/chandini-pentapati",
       color: "hover:text-blue-600"
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:your.email@example.com",
+      href: "mailto:chandinipentapati123@gmail.com",
       color: "hover:text-accent"
     }
   ];
@@ -316,7 +316,7 @@ const Contact = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/chand-chandini"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-3 p-4 rounded-xl bg-surface border border-border hover:shadow-card transition-all duration-300 hover:scale-105"
@@ -327,7 +327,7 @@ const Contact = () => {
                   </a>
                   
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://linkedin.com/in/chandini-pentapati"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-3 p-4 rounded-xl bg-surface border border-border hover:shadow-card transition-all duration-300 hover:scale-105"

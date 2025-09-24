@@ -12,43 +12,43 @@ const Skills = () => {
       title: "Programming Languages",
       icon: "💻",
       skills: [
-        { name: "Python", level: 90, color: "bg-gradient-to-r from-blue-500 to-blue-600" },
-        { name: "JavaScript", level: 85, color: "bg-gradient-to-r from-yellow-500 to-yellow-600" },
-        { name: "HTML/CSS", level: 90, color: "bg-gradient-accent" },
+        { name: "C Programming", level: 85, color: "bg-gradient-to-r from-blue-500 to-blue-600" },
+        { name: "Python", level: 80, color: "bg-gradient-to-r from-green-500 to-green-600" },
+        { name: "JavaScript", level: 75, color: "bg-gradient-to-r from-yellow-500 to-yellow-600" },
         { name: "SQL", level: 75, color: "bg-gradient-to-r from-purple-500 to-purple-600" }
       ]
     },
     {
-      title: "Frameworks & Libraries",
-      icon: "⚛️",
+      title: "Web Technologies",
+      icon: "🌐",
       skills: [
-        { name: "React", level: 80, color: "bg-gradient-to-r from-cyan-500 to-cyan-600" },
-        { name: "Node.js", level: 70, color: "bg-gradient-success" },
-        { name: "Express.js", level: 75, color: "bg-gradient-to-r from-gray-600 to-gray-700" },
-        { name: "Tailwind CSS", level: 85, color: "bg-gradient-to-r from-teal-500 to-teal-600" }
+        { name: "HTML/CSS", level: 85, color: "bg-gradient-accent" },
+        { name: "React", level: 70, color: "bg-gradient-to-r from-cyan-500 to-cyan-600" },
+        { name: "Tailwind CSS", level: 75, color: "bg-gradient-to-r from-teal-500 to-teal-600" },
+        { name: "Responsive Design", level: 80, color: "bg-gradient-to-r from-pink-500 to-pink-600" }
       ]
     },
     {
-      title: "Tools & Technologies",
-      icon: "🛠️",
+      title: "AI & Tools",
+      icon: "🤖",
       skills: [
-        { name: "Git & GitHub", level: 85, color: "bg-gradient-to-r from-orange-500 to-orange-600" },
-        { name: "VS Code", level: 90, color: "bg-gradient-to-r from-blue-600 to-blue-700" },
-        { name: "Database Design", level: 80, color: "bg-gradient-to-r from-green-500 to-green-600" },
-        { name: "API Development", level: 75, color: "bg-gradient-to-r from-indigo-500 to-indigo-600" }
+        { name: "Artificial Intelligence", level: 70, color: "bg-gradient-success" },
+        { name: "Machine Learning", level: 65, color: "bg-gradient-to-r from-red-500 to-red-600" },
+        { name: "Git & GitHub", level: 75, color: "bg-gradient-to-r from-orange-500 to-orange-600" },
+        { name: "VS Code", level: 85, color: "bg-gradient-to-r from-blue-600 to-blue-700" }
       ]
     }
   ];
 
   const techStack = [
-    { name: "Python", icon: "🐍", description: "Backend development, data analysis, automation" },
-    { name: "React", icon: "⚛️", description: "Modern frontend applications with hooks and context" },
-    { name: "JavaScript", icon: "🟨", description: "Full-stack development, DOM manipulation, async programming" },
-    { name: "Git", icon: "🌿", description: "Version control, collaboration, branching strategies" },
-    { name: "VS Code", icon: "💙", description: "Primary development environment with extensions" },
+    { name: "C Programming", icon: "💻", description: "Strong foundation in programming fundamentals and algorithms" },
+    { name: "Python", icon: "🐍", description: "AI development, data analysis, and backend programming" },
+    { name: "JavaScript", icon: "🟨", description: "Frontend development and interactive web applications" },
+    { name: "Artificial Intelligence", icon: "🤖", description: "Machine learning models and AI applications" },
     { name: "HTML/CSS", icon: "🎨", description: "Semantic markup, responsive design, modern layouts" },
-    { name: "Node.js", icon: "🟢", description: "Server-side JavaScript, RESTful APIs" },
-    { name: "Database", icon: "🗄️", description: "SQL queries, database design, optimization" }
+    { name: "SQL", icon: "🗄️", description: "Database management and query optimization" },
+    { name: "Git", icon: "🌿", description: "Version control, collaboration, and project management" },
+    { name: "React", icon: "⚛️", description: "Modern frontend applications with component architecture" }
   ];
 
   useEffect(() => {
