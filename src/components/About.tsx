@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { GraduationCap, Target, Heart, Code } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { GraduationCap, Target, Heart, Code, ExternalLink } from 'lucide-react';
+import chandiniPhoto from '@/assets/chandini-photo.jpg';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -97,31 +99,58 @@ const About = () => {
             ))}
           </div>
           
-          <div className="mt-16 text-center">
-            <Card className="card-glass max-w-4xl mx-auto">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold text-foreground mb-4">
-                  My Journey
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  My journey in technology began with curiosity and has evolved through participating 
-                  in national hackathons like Build Bharath AI, where I developed innovative solutions 
-                  to showcase India's cultural heritage. With hands-on experience from internships 
-                  and continuous learning, I'm excited to contribute to key projects in the software industry.
-                </p>
-                
-                <div className="mt-6 flex flex-wrap justify-center gap-3">
-                  {['Team Collaboration', 'Problem Solving', 'Cultural Awareness', 'Continuous Learning'].map((skill) => (
-                    <span 
-                      key={skill}
-                      className="px-4 py-2 bg-gradient-accent text-accent-foreground rounded-full text-sm font-medium"
-                    >
-                      {skill}
-                    </span>
-                  ))}
+          {/* Photo and HackerRank Section */}
+          <div className="mt-16 flex flex-col lg:flex-row items-center gap-12">
+            <div className={`lg:w-1/2 transition-all duration-700 ${isVisible ? 'animate-slide-in-left' : ''}`}>
+              <Card className="card-glass">
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-semibold text-foreground mb-4">
+                    My Journey
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-6">
+                    My journey in technology began with curiosity and has evolved through participating 
+                    in national hackathons like Build Bharath AI, where I developed innovative solutions 
+                    to showcase India's cultural heritage. With hands-on experience from internships 
+                    and continuous learning, I'm excited to contribute to key projects in the software industry.
+                  </p>
+                  
+                  <div className="mb-6 flex flex-wrap gap-3">
+                    {['Team Collaboration', 'Problem Solving', 'Cultural Awareness', 'Continuous Learning'].map((skill) => (
+                      <span 
+                        key={skill}
+                        className="px-4 py-2 bg-gradient-accent text-accent-foreground rounded-full text-sm font-medium"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  {/* HackerRank Profile Link */}
+                  <Button 
+                    variant="outline" 
+                    className="w-fit"
+                    onClick={() => window.open('https://www.hackerrank.com/profile/chandinipentapa1', '_blank')}
+                  >
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    View HackerRank Profile
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+            
+            {/* Profile Photo */}
+            <div className={`lg:w-1/2 flex justify-center transition-all duration-700 ${isVisible ? 'animate-slide-in-right' : ''}`}>
+              <div className="relative">
+                <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-accent/20 shadow-elegant">
+                  <img 
+                    src={chandiniPhoto} 
+                    alt="Chandini Pentapati - IT Student at Andhra University College of Engineering" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-              </CardContent>
-            </Card>
+                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-hero rounded-full blur-xl opacity-60"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

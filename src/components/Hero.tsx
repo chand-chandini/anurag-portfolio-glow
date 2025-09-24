@@ -15,7 +15,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden hero-gradient">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden hero-gradient pt-20">
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className={`transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : ''}`}>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -47,7 +47,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="px-8 py-6 text-lg font-semibold rounded-xl border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm"
+              className="px-8 py-6 text-lg font-semibold rounded-xl border-2 border-white/30 text-foreground bg-white/20 hover:bg-white/30 backdrop-blur-sm"
             >
               <Download className="mr-2 h-5 w-5" />
               Download Resume
